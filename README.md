@@ -66,12 +66,12 @@ For more details, see: https://onion.io/2bt-cross-compiling-c-programs-part-1/
 
 **Not recommended for beginners** 
 
-Procedure to setup the build system on a Linux System (Ubuntu Distro):
+Procedure to setup the build system on a Linux System (Debian Distro):
 
 1. Setup Linux environment by installing the required packages:
 ```
 sudo apt-get update
-sudo apt-get install -y build-essential vim git wget curl subversion build-essential libncurses5-dev zlib1g-dev gawk flex quilt git-core unzip libssl-dev python-dev python-pip libxml-parser-perl default-jdk rsync time
+sudo apt-get install -y build-essential git curl subversion libncurses5-dev zlib1g-dev gawk flex quilt git-core unzip libssl-dev python-dev python-pip libxml-parser-perl default-jdk rsync time
 ```
 
 2. Download the Build System from Github:
